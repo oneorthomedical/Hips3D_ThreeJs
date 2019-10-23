@@ -1,0 +1,44 @@
+{
+  "name": "three_js_template",
+  "version": "1.0.0",
+  "description": "Template for three.js projects",
+  "scripts": {
+    "dev4": "SET NODE_ENV=dev&& webpack --mode=development --watch -d",
+    "dev2": "gulp serve",
+    "prod": "webpack --mode=production ",
+    "dev": "concurrently --kill-others \"npm run dev4\" \"npm run dev2\"",
+    "test": "mocha --require babel-core/register test/test.js --reporter mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.26.7",
+    "concurrently": "^4.1.2",
+    "css-loader": "^3.2.0",
+    "gulp": "^4.0.2",
+    "mocha": "^6.2.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-livereload-plugin": "^2.2.0",
+    "mochawesome": "^4.1.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "rsvp": "^4.8.5",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "three": "^0.109.0",
+    "three-orbitcontrols": "^2.108.1",
+    "three-trackballcontrols": "^0.0.8"
+  },
+  "main": "gulpfile.js"
+}

@@ -1,0 +1,274 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-10-03T16:09:16.546Z",
+    "end": "2019-10-03T16:09:16.560Z",
+    "duration": 14,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d0a848be-8d80-4f54-b3d7-4dd237b090de",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4a74c99b-6f34-4114-807b-61328bda5aa1",
+          "title": "StringUtils.",
+          "fullFile": "C:\\wamp64\\www\\template3D\\test\\test.js",
+          "file": "\\test\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "2075c411-e932-453f-a318-91087f56bb73",
+              "title": "StringUtilsManager()",
+              "fullFile": "C:\\wamp64\\www\\template3D\\test\\test.js",
+              "file": "\\test\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "fullTitle": "StringUtils. StringUtilsManager() Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.strictEqual(_StringUtils.StringUtils.StringUtilsManager(text, true, true, true, true), \"testee_unit\");",
+                  "err": {},
+                  "uuid": "3f24eb52-933b-440d-ba85-015521de23c6",
+                  "parentUUID": "2075c411-e932-453f-a318-91087f56bb73",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "3f24eb52-933b-440d-ba85-015521de23c6"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "e3f39f74-4571-4538-887e-9c8e9eec0f75",
+              "title": "RemoveAccents()",
+              "fullFile": "C:\\wamp64\\www\\template3D\\test\\test.js",
+              "file": "\\test\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "fullTitle": "StringUtils. RemoveAccents() Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.strictEqual(_StringUtils.StringUtils.RemoveAccents(text), \"TESTee Unit.\");",
+                  "err": {},
+                  "uuid": "75abd61b-8fff-43de-bb96-5e1a5cd5c9ea",
+                  "parentUUID": "e3f39f74-4571-4538-887e-9c8e9eec0f75",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "75abd61b-8fff-43de-bb96-5e1a5cd5c9ea"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "ca5c9030-f9ae-4cdf-95f6-16a4617df109",
+              "title": "StringUtilsManager()",
+              "fullFile": "C:\\wamp64\\www\\template3D\\test\\test.js",
+              "file": "\\test\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "fullTitle": "StringUtils. StringUtilsManager() Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.strictEqual(_StringUtils.StringUtils.RemoveSpaces(text), \"TESTéè_Unit.\");",
+                  "err": {},
+                  "uuid": "21600c30-08a7-4536-9585-9f4666a16977",
+                  "parentUUID": "ca5c9030-f9ae-4cdf-95f6-16a4617df109",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "21600c30-08a7-4536-9585-9f4666a16977"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "9f06bd4b-58e7-427b-824d-f2a7b216c509",
+              "title": "StringUtilsManager()",
+              "fullFile": "C:\\wamp64\\www\\template3D\\test\\test.js",
+              "file": "\\test\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "fullTitle": "StringUtils. StringUtilsManager() Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.strictEqual(_StringUtils.StringUtils.RemoveCaps(text), \"testéè unit.\");",
+                  "err": {},
+                  "uuid": "9f7c336a-585b-41b0-96e7-b26371e82342",
+                  "parentUUID": "9f06bd4b-58e7-427b-824d-f2a7b216c509",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "9f7c336a-585b-41b0-96e7-b26371e82342"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "f42b79af-7932-40d5-88c2-c7aecad7e05a",
+              "title": "StringUtilsManager()",
+              "fullFile": "C:\\wamp64\\www\\template3D\\test\\test.js",
+              "file": "\\test\\test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "fullTitle": "StringUtils. StringUtilsManager() Given text \"TESTéè Unit\" should return \"testee_unit\"",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.strictEqual(_StringUtils.StringUtils.RemoveDots(text), \"TESTéè Unit\");",
+                  "err": {},
+                  "uuid": "4085aaaf-c22a-4cdd-a8c5-412bf164f151",
+                  "parentUUID": "f42b79af-7932-40d5-88c2-c7aecad7e05a",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "4085aaaf-c22a-4cdd-a8c5-412bf164f151"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}

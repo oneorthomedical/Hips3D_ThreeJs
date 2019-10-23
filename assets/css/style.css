@@ -1,0 +1,21 @@
+#view3D{
+    width: 75vw;
+    height:99vh;
+    height:calc(99.4vh);
+    padding: 14px 0;
+}
+scene {
+    width: 99%; /* occupe la largeur restante */
+}
+.container-fluid, .canvasRow {
+    height: 99%;
+}
+.wrapper{
+    height: 96%;
+}
+.canvasRow > div{
+    background-color: lightblue;
+}
+.menuCol{
+    padding: 15px;
+}
